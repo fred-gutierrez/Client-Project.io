@@ -1,0 +1,172 @@
+* {
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#rest-image {
+    background-image: url(/images/sushi-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+    height: 200px;
+}
+
+#container1 {
+    align-items: center;
+    display: flex;
+    height: 150px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: 12px;
+}
+
+#satto1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 3.2em;
+    text-shadow: 2px 2px #000000;
+    position: absolute;
+    color:  #ff0000;
+    margin: 0;
+    padding: 0;
+}
+
+#rest-des {
+    font-family: 'EB Garamond', serif;
+    position: absolute;
+    font-size: 1.9em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+/*------A---------------A-------------A-----------A--------A------A----------*/
+/*------A---------------A-------------A-----------A--------A------A----------*/
+/*------A---------------A-------------A-----------A--------A------A----------*/
+
+#marble-bg {
+    background-image: url(/images/marble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 100%;
+}
+
+#container-menu {
+    padding: 30px;
+    background-color: #000000;
+    opacity: 0.8;
+    margin: 20px 10px 0px 10px;
+}
+
+#menu-title {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5em;
+    text-shadow: 1.5px 1.5px #000000;
+    color:darkorange;
+    line-height: 0.7 !important;
+}
+
+#menu-sushi, #menu-japones {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border: 2px solid #000000;
+    margin: 30px 0;
+    padding: 10px;
+}
+
+#menu-japones:hover, #menu-sushi:hover {
+    box-shadow: 0 1px 5px 1px #000;
+}
+
+#menu-japones {
+    background-image: url(/images/sushi-display1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-sushi {
+    background-image: url(/images/sushi-display3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#menu-japones span, #menu-sushi span {
+    font-family: 'Nanum Myeongjo', serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+/*------A---------------A-------------A-----------A--------A------A----------*/
+/*------A---------------A-------------A-----------A--------A------A----------*/
+/*------A---------------A-------------A-----------A--------A------A----------*/
+
+.panel-footer {
+    width: 100%;
+    height: auto;
+    background-image: url(/images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#footer-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+    text-shadow: 1.5px 1.5px black; 
+    font-family: 'EB Garamond', serif;
+}
+
+#footer-ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#footer-ul li {
+    margin: 0 15px;
+}
+
+#instagram-social {
+    display: block;
+}
+
+#facebook-social {
+    display: block;
+}
+
+#whatsapp-social {
+    display: block;
+}
+
+#copyright {
+    text-align: center; 
+    font-size: .8em;
+    display: flex;
+    align-items: flex-end;
+    height: 175px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 1.5px 1.5px black; 
+}
